@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    - While adaptive and responsive layouts both utilize media queries to change the layout of the website based on the device on which it is being viewed, they differ in that adaptive layouts use hard coded units in media queries to change things such as widths and heights whereas responsive layouts utilize responsive units to change these properties.  Because responsive layouts utilize responsive units, they are able to automatically scale to far more devices than adaptive layouts.
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    - In mobile first design, the developer designs the web-page for mobile devices first then uses media queries to scale up the design to larger mobile devices and desktops.  When using desktop first design, the developer designs the website for desktops first then used media queries to scale down the website for mobile devices and tablets.
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    -  Placing ‘font-size: 62.5%’ in the HTML tag allows 1 rem to equal 10px.  If instead we had ‘font-size: 100%’ in the HTML tag, 1 rem would equal 16px.  Having it set this way would make it more difficult for the developer to know how many rems to use.  As such, using ‘font-size: 62.5%’ in the HTML tag is very useful for developers using rems. 
+
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    - I would describe preprocessing as a way to use javascript to allow the programmer to write CSS in a different format than it is normally written.  When using preprocessors, one can nest css elements and can create variables and mixins.  
+
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    - I would say that variables are my favorite concept in preprocessing. They allow me to change a lot of my code by altering only one variable. I would say that the concept of nesting gives me the most trouble.  While I’m definitely getting used to using nesting, it can still be a little confusing to think of formatting CSS in a new way. 
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
