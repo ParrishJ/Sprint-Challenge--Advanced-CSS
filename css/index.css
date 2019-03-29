@@ -160,6 +160,20 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navBar {
+  background-color: #F6F6F6;
+}
+.navBar nav {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+}
+.navBar nav .anchors {
+  display: flex;
+  justify-content: space-evenly;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
